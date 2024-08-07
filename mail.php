@@ -15,7 +15,7 @@ $email = $_POST['user_email'] ?? '';
 
 // Настройки SMTP
 $mail->isSMTP();
-$mail->Host = 'smtp.yandex.com';
+$mail->Host = 'smtp.yandex.ru';
 $mail->SMTPAuth = true;
 $mail->Username = 'zheskarkarpov@yandex.ru';
 $mail->Password = 'qljqdbatmwfgfqup';
